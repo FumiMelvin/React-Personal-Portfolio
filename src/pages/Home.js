@@ -14,8 +14,12 @@ function Home() {
             performance-driven with a vast array of knowledge in many diﬀerent
             Front-End and Back-End languages and frameworks.
           </p>
-          <GitHub />
-          <Email />
+          <a href={"https://github.com/FumiMelvin"}>
+            <GitHub />
+          </a>
+          <a href={"mailto:fumelvin@gmail.com"}>
+            <Email />
+          </a>
         </div>
       </div>
       <div className="skills">

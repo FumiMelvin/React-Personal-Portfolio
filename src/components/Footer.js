@@ -6,9 +6,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Twitter />
-        <GitHub />
-        <Email />
+        <a href={"https://github.com/FumiMelvin"}>
+          <GitHub />
+        </a>
+        <a href={"mailto:fumelvin@gmail.com"}>
+          <Email />
+        </a>
+        <a href={"https://twitter.com/fumi_melvin"}>
+          <Twitter />
+        </a>
       </div>
       <p>&copy; 2022 Fumi Melvin</p>
     </div>

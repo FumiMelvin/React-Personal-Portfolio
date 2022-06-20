@@ -11,8 +11,12 @@ function ProjectDisplay() {
     <div className="project">
       <h1>{project.name}</h1>
       <img src={project.image} alt={project.name} />
-      <p>Using: {project.skills}</p>
-      <GitHub />
+      <p>
+        <b>Using:</b> {project.skills}
+      </p>
+      <a href={project.link}>
+        <GitHub />
+      </a>
     </div>
   );
 }

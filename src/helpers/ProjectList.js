@@ -6,10 +6,12 @@ export const ProjectList = [
     name: "My Portfolio",
     image: portfolio,
     skills: "React, NodeJS, CSS",
+    link: "",
   },
   {
     name: "Personal Blog",
     image: blog,
     skills: "GraphCMS, NextJS,React, TailwindCSS",
+    link: "https://github.com/FumiMelvin/Graphcms-and-Nextjs-blog-app-",
   },
 ];
